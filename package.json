@@ -1,0 +1,16 @@
+{
+  "name": "ielts-writing-test",
+  "version": "1.0.0",
+  "description": "IELTS Writing Test Platform with Anti-Cheating Features",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve .",
+    "start": "serve ."
+  },
+  "keywords": ["ielts", "writing", "test", "education"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
