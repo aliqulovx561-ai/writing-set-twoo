@@ -3,6 +3,10 @@
   "name": "ielts-writing-test",
   "builds": [
     {
+      "src": "api/telegram.js",
+      "use": "@vercel/node"
+    },
+    {
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
@@ -11,6 +15,11 @@
     }
   ],
   "routes": [
+    {
+      "src": "/api/telegram",
+      "dest": "/api/telegram.js",
+      "methods": ["GET", "POST", "OPTIONS"]
+    },
     {
       "src": "/(.*)",
       "dest": "/index.html"
