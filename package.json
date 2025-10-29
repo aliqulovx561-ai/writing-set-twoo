@@ -5,12 +5,16 @@
   "main": "index.html",
   "scripts": {
     "dev": "serve .",
-    "start": "serve ."
+    "start": "serve .",
+    "build": "echo 'No build process needed for static site'"
   },
   "keywords": ["ielts", "writing", "test", "education"],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "serve": "^14.2.0"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.0.0"
   }
 }
