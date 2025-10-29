@@ -1,6 +1,6 @@
 # IELTS Writing Test - Set Two
 
-A secure online IELTS Writing Test platform with anti-cheating features.
+Secure online IELTS Writing Test platform with anti-cheating features.
 
 ## Features
 
@@ -17,7 +17,17 @@ A secure online IELTS Writing Test platform with anti-cheating features.
 1. Create a Telegram bot using [@BotFather](https://t.me/BotFather)
 2. Get your bot token
 3. Get your chat ID (you can use @userinfobot)
-4. Update the Telegram credentials in `index.html`:
-   ```javascript
-   const TELEGRAM_BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE';
-   const TELEGRAM_CHAT_ID = 'YOUR_CHAT_ID_HERE';
+4. Set environment variables in Vercel:
+   - `TELEGRAM_BOT_TOKEN` = your_bot_token_here
+   - `TELEGRAM_CHAT_ID` = your_chat_id_here
+
+### Deployment on Vercel
+
+1. Upload all files to GitHub repository
+2. Go to [vercel.com](https://vercel.com) and sign in with GitHub
+3. Click "New Project"
+4. Import your GitHub repository
+5. Set environment variables in Vercel project settings
+6. Deploy
+
+## File Structure
